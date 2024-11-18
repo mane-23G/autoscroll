@@ -11,13 +11,18 @@ The user can speficy the rate at which the file should be scrolled. s has to be 
 
 ### Features
 -Pause the scrolling by pressing CTRL-Z
+
 -Unpause the scrolling by pressing CTRL-C
+
 -Quit out of the program by pressing CTRL-/ or sending a SIGTERM, SIGQUIT, or SIGKILL
+
 -Displays the line numbers from the text file
+
 -Displays the time
 
 ### Defects/Shortcomings
 -The clock does not update every second when the autoscroll function is unpaused and the -s option is supplied.
+
 -The program does not use sigwait() and instead uses signal handlers
 
 This was last tested on 9/18/24 and was working as intended (with the stated defects).
