@@ -25,6 +25,7 @@ The user can speficy the rate at which the file should be scrolled. s has to be 
 
 -The program does not use sigwait() and instead uses signal handlers
 
+
 This was last tested on 9/18/24 and was working as intended (with the stated defects).
 
 Thank you to Professor Weiss for the assigment!
